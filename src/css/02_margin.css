@@ -1,0 +1,21 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+ */
+section{
+    padding: 10px 0px;
+    border: 10px solid black;
+    height: auto;
+    display: flex ;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+img{
+    border: 5px solid red; 
+    margin: 5px;
+
+}
