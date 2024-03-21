@@ -1,0 +1,118 @@
+#parrafo-de-prueba{
+    background: red;
+    color:black;
+    border: 20px  black solid;
+/*  border-top-width:50px ;
+    border-right-width: 40px ;
+    border-bottom-width: 30px;
+    border-left-width: 20px ; */
+    border-radius: 10px;
+
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+#perro{
+    width: 150px;
+    height: 150px;
+    border: solid rgb(106, 233, 106);
+    border-width: 35px 20px 25px 15px;
+    border-radius: 10px;
+}
+
+#gato{
+    width: 150px; 
+    height: 150px;
+    border-style: double;
+    border-width: 10px 20px 15px 35px; 
+
+}
+
+#zorro{
+    width: 150px;
+    height: 150px;
+    border-style:  dotted dashed solid double;
+    border-radius: 10px;
+    border-width:20px 12px 15px 22px;
+    
+    
+}
+
+#leon{
+    width: 150px;
+    height: 150px;
+    border: ridge purple;
+    border-width: 14px 7px 22px 27px ;
+}
+
+#oso{
+    width: 150px;
+    height: 150px;
+    border-width:10px 20px 15px 5px;
+    border-style: groove;
+}
+
+.figure-padding{
+    padding: 4px;
+}
